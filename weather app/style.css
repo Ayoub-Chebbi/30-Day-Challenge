@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #0B131E;
+    overflow: hidden;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+/* SIDEBAR */
+.main-list img{
+    width: 35px;
+}
+
+.main-list p {
+    font-size: 13px;
+    color: white;
+}
+
+.main-list a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.main-list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar{
+    max-width: 90px;
+    border: 1px solid transparent;
+    border-radius: 29px;
+    padding: 15px;
+    padding-bottom: 357px;
+    background-color: #202B3B;
+}
+
+.logo{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.logo img{
+    width: 38px;
+}
+
+/* MAIN */
+.main input{
+    border: 1px solid transparent;
+    border-radius: 17px;
+    background-color: #202B3B;
+    padding:13px 530px 13px 10px;
+    color: white;
+}
+
+.weather-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    gap: 20px;
+}
+
+.weather-left_section{
+    color: white;
+    line-height: 80px;
+}
+
+.weather-left_section h3{
+    font-size: 60px;
+}
+
+.air-conditions_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.air-conditions{
+    border: 1px solid transparent;
+    background-color: #202B3B;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.air-conditions_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.feel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.air-conditions_nav button{
+    background-color: #0095FF;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-box img{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: #202B3B;
+    padding: 7px;
+    cursor: pointer;
+}
+/* FORECAST */
+
+.forecast{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 1px solid transparent;
+    background-color: #202B3B;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.forecast-weather{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    
+}
+
+.img-text img{
+    width: 70px;
+}
+
+.img-text{
+    display: flex;
+    align-items: center;
+}
+
