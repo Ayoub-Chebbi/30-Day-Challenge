@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 90px;
+}
+
+
+.input-field input{
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.To-Do_container{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.input-field button{
+    border: 1px solid transparent;
+    background-color: #E79A68;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.list-container{
+    color: black;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.list-container img{
+    float: right;
+    cursor: pointer;
+    width: 20px;
+}
+
+.list-container span{
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.list-container li{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: #F0EFF0;
+}
+
+h1{
+    text-align: center;
+}
