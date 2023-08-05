@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #041E50;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 52px;
+}
+
+.container input {
+    outline: 0;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container button{
+    background-color: #4C58F4;
+    color: white;
+    border: 1px solid transparent;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
